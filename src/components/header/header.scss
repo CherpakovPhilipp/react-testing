@@ -1,0 +1,15 @@
+@import '../../styles/mixins.scss';
+
+.header{
+  @include components_common;
+
+  justify-content: space-between;
+  flex: 0 0 auto;
+
+  &.light{
+    background: #efefef;
+  }
+  &.dark{
+    background: grey;
+  }
+}
